@@ -1,7 +1,9 @@
 const screenshot = require('./src/screenshot')
 const keypress = require('./src/keyPress')
-module.exports  = {
+
+
+module.exports  = ()=> ({
     screenshot,
     keypress
-}
+})
 
