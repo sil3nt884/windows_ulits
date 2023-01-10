@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6518b96-419b-4612-8e62-6f914f4704bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/binding.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/keyPress/binding.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/keyPress/keyPress.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/screenshot.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keyPress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screenshot.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K67Qt37x1Y8G0uU1LDJhdRMAlG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ricky Luu/Desktop/screenshot/c++/keyPress&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricky Luu\Desktop\screenshot\c++\keyPress" />
+      <recent name="C:\Users\Ricky Luu\Desktop\screenshot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricky Luu\Desktop\screenshot\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="screenshot.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/screenshot.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.screenshot.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6518b96-419b-4612-8e62-6f914f4704bb" name="Changes" comment="" />
+      <created>1673283166099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673283166099</updated>
+      <workItem from="1673283167283" duration="34000" />
+      <workItem from="1673283795855" duration="466000" />
+      <workItem from="1673284446163" duration="596000" />
+      <workItem from="1673286896782" duration="1143000" />
+      <workItem from="1673288171501" duration="47000" />
+      <workItem from="1673288233438" duration="30000" />
+      <workItem from="1673288273034" duration="353000" />
+      <workItem from="1673288646506" duration="90000" />
+      <workItem from="1673288750340" duration="19000" />
+      <workItem from="1673288776446" duration="5000" />
+      <workItem from="1673288812655" duration="924000" />
+      <workItem from="1673289783846" duration="138000" />
+      <workItem from="1673289931635" duration="50000" />
+      <workItem from="1673289992122" duration="17000" />
+      <workItem from="1673290020551" duration="13000" />
+      <workItem from="1673290112768" duration="3175000" />
+      <workItem from="1673341598003" duration="3897000" />
+      <workItem from="1673345666031" duration="3586000" />
+      <workItem from="1673353759176" duration="269000" />
+      <workItem from="1673354094722" duration="1692000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/ffi-napi/lib/dynamic_library.js</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
