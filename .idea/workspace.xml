@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6518b96-419b-4612-8e62-6f914f4704bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/binding.gyp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/keyPress/binding.gyp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/keyPress/keyPress.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/screenshot.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keyPress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screenshot.js" afterDir="false" />
+    <list default="true" id="d6518b96-419b-4612-8e62-6f914f4704bb" name="Changes" comment="fix exports">
+      <change afterPath="$PROJECT_DIR$/c++/getMousePos/binding.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/getMousePos/getMousePos.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/screenShotRegion/binding.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/screenShotRegion/screensShotByRegion.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mouse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screenshot.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ricky Luu/Desktop/screenshot/c++/keyPress&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.12.1",
+    "javascript.nodejs.core.library.typings.version": "18.11.18",
+    "last_opened_file_path": "C:/Users/Ricky Luu/Desktop/screenshot/c++/screenShotRegion",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricky Luu\Desktop\screenshot\c++\screenShotRegion" />
+      <recent name="C:\Users\Ricky Luu\Desktop\screenshot\c++\getMousePos" />
       <recent name="C:\Users\Ricky Luu\Desktop\screenshot\c++\keyPress" />
       <recent name="C:\Users\Ricky Luu\Desktop\screenshot" />
     </key>
@@ -67,13 +63,17 @@
       <recent name="C:\Users\Ricky Luu\Desktop\screenshot\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.screenshot.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="screenshot.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/screenshot.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.screenshot.js" />
+        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -104,12 +104,52 @@
       <workItem from="1673341598003" duration="3897000" />
       <workItem from="1673345666031" duration="3586000" />
       <workItem from="1673353759176" duration="269000" />
-      <workItem from="1673354094722" duration="1692000" />
+      <workItem from="1673354094722" duration="2131000" />
+      <workItem from="1673362760882" duration="147000" />
+      <workItem from="1673363145837" duration="110000" />
+      <workItem from="1673363300381" duration="33000" />
+      <workItem from="1673363532919" duration="68000" />
+      <workItem from="1673373588083" duration="3041000" />
+      <workItem from="1673430107475" duration="7688000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1673355952722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673355952722</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1673356064026</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673356064026</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1673363239163</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673363239163</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix exports">
+      <created>1673363575768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673363575768</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="fix exports" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix exports" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
