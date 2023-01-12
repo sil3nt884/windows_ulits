@@ -4,14 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6518b96-419b-4612-8e62-6f914f4704bb" name="Changes" comment="fix exports">
-      <change afterPath="$PROJECT_DIR$/c++/getMousePos/binding.gyp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/getMousePos/getMousePos.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/screenShotRegion/binding.gyp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/screenShotRegion/screensShotByRegion.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mouse.js" afterDir="false" />
+    <list default="true" id="d6518b96-419b-4612-8e62-6f914f4704bb" name="Changes" comment="add mouse and region screenshot">
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/binding.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/findWindow.iobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/findWindow.ipdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/findWindow.node" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/findWindow.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.node.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.tlog/findWindow.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.tlog/findWindow.write.1u.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/findWindow.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/Release/obj/findWindow/win_delay_load_hook.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/binding.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/config.gypi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/findWindow.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/build/findWindow.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c++/findWindow/findWindow.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findWindow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screenshot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +52,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.12.1",
-    "javascript.nodejs.core.library.typings.version": "18.11.18",
-    "last_opened_file_path": "C:/Users/Ricky Luu/Desktop/screenshot/c++/screenShotRegion",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ricky Luu/Desktop/screenshot/c++/findWindow&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricky Luu\Desktop\screenshot\c++\findWindow" />
       <recent name="C:\Users\Ricky Luu\Desktop\screenshot\c++\screenShotRegion" />
       <recent name="C:\Users\Ricky Luu\Desktop\screenshot\c++\getMousePos" />
       <recent name="C:\Users\Ricky Luu\Desktop\screenshot\c++\keyPress" />
@@ -63,8 +81,14 @@
       <recent name="C:\Users\Ricky Luu\Desktop\screenshot\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.screenshot.js">
+  <component name="RunManager" selected="Node.js.findWindow.js">
+    <configuration name="findWindow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/findWindow.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="mouse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/mouse.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <configuration name="screenshot.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/screenshot.js" working-dir="$PROJECT_DIR$">
@@ -72,6 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.findWindow.js" />
+        <item itemvalue="Node.js.mouse.js" />
         <item itemvalue="Node.js.screenshot.js" />
         <item itemvalue="Node.js.index.js" />
       </list>
@@ -110,7 +136,15 @@
       <workItem from="1673363300381" duration="33000" />
       <workItem from="1673363532919" duration="68000" />
       <workItem from="1673373588083" duration="3041000" />
-      <workItem from="1673430107475" duration="7688000" />
+      <workItem from="1673430107475" duration="8771000" />
+      <workItem from="1673440083081" duration="36000" />
+      <workItem from="1673442464758" duration="21000" />
+      <workItem from="1673452754408" duration="184000" />
+      <workItem from="1673453257081" duration="3600000" />
+      <workItem from="1673512834300" duration="19000" />
+      <workItem from="1673512899969" duration="376000" />
+      <workItem from="1673513302525" duration="810000" />
+      <workItem from="1673514141860" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1673355952722</created>
@@ -140,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673363575768</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add mouse and region screenshot">
+      <created>1673439945644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673439945644</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add mouse and region screenshot">
+      <created>1673439974948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673439974948</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="fix exports" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix exports" />
+    <MESSAGE value="add mouse and region screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mouse and region screenshot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
